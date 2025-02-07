@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Roboto", "serif"; 
+}
+
+body {
+  @apply bg-linear-to-r from-cyan-500 to-blue-600 font-primary text-zinc-700 leading-relaxed; 
+}
